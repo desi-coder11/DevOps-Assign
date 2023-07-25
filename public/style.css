@@ -190,6 +190,8 @@ pre {
     flex: 1; /* Set both Level 2 and Level 3 to take equal space */
     max-height: 400px; /* Set the maximum height */
     overflow: auto;
+     font-weight: 800;
+    font-size: large;
 }
 
 /* JSON output formatting styles for Level 3 */
