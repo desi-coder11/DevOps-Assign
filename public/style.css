@@ -3,14 +3,12 @@ body, html {
     padding: 0;
 }
 
-/* Define global styles for header and footer */
 header, footer {
     background-color: #333;
     color: #fff;
     padding: 0px;
 }
 
-/* Define global styles for the navbar */
 nav {
     background-color: #444;
     color: #fff;
@@ -18,13 +16,11 @@ nav {
     
 }
 
-/* Container for the two parts */
 .container {
     display: flex;
     height: 86.7vh;
 }
 
-/* Styles for the left section (input) */
 .left-section {
     flex: 1;
     background-color: #f0f0f0;
@@ -33,7 +29,6 @@ nav {
     font-weight: 600;
 }
 
-/* Styles for the right section (output) */
 .right-section {
     flex: 1;
     background-color: #ddd;
@@ -42,7 +37,6 @@ nav {
     font-weight: 600;
 }
 
-/* Styles for the form */
 form {
     display: flex;
     flex-direction: column;
@@ -51,7 +45,6 @@ form {
 
 }
 
-/* Styles for the form fields */
 label {
     margin: 20px;
 }
@@ -76,7 +69,7 @@ input[type="submit"]:hover {
 textarea {
     width: 100%;
     padding: 10px;
-    font-family: 'Open Sans', sans-serif; /* Add the Google Font name here */
+    font-family: 'Open Sans', sans-serif; 
     font-size: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -102,19 +95,16 @@ textarea:focus {
     margin-top: 30px;
 }
 
-/* JSON output formatting styles */
 pre {
     font-family: 'Courier New', monospace;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
 
-/* Add focus outline to JSON output part */
 #formEditor:focus {
     outline: 2px solid #007bff;
 }
 
-/* Styles for the edited output of the JSON */
 #formEditor input[type="text"] {
     font-size: 18px;
     padding: 8px;
@@ -132,15 +122,12 @@ pre {
     word-wrap: break-word;
 }
 
-/* Add focus outline to JSON output part */
 #formEditor:focus {
     outline: 2px solid #007bff;
 }
 
-/* Styles for the edited output of the JSON */
-/* ... (existing edited output styles) ... */
 
-/* Styles for the error message */
+
 #errorContainer {
     color: red;
     font-size: 18px;
@@ -159,7 +146,6 @@ pre {
 
 
 
-/* JSON output formatting styles for Level 2 */
 #jsonOutputLevel2 {
     font-family: 'Courier New', monospace;
     white-space: pre-wrap;
@@ -168,10 +154,9 @@ pre {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-    /* width: 550px; 
-    height: 150px;  */
-    flex: 1; /* Set both Level 2 and Level 3 to take equal space */
-    max-height: 400px; /* Set the maximum height */
+    
+    flex: 1; 
+    max-height: 400px; 
     overflow: auto;
     font-weight: 800;
     font-size: large;
@@ -187,14 +172,13 @@ pre {
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
-    flex: 1; /* Set both Level 2 and Level 3 to take equal space */
-    max-height: 400px; /* Set the maximum height */
+    flex: 1; 
+    max-height: 400px; 
     overflow: auto;
      font-weight: 800;
     font-size: large;
 }
 
-/* JSON output formatting styles for Level 3 */
 #errorContainer {
     color: red;
     font-size: 18px;
@@ -207,7 +191,6 @@ pre {
     margin-right: 5px;
 }
 
-/* New styles for error message in Level 2 and Level 3 */
 #errorContainer.error {
     display: block;
 }
